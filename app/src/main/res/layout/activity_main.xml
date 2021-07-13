@@ -3,21 +3,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/inc_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/inc_button_text" />
-    <TextView
-        android:id="@+id/inc_text_view"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/inc_text_view_text_size"
-        android:paddingStart="@dimen/inc_text_view_padding"
-        android:paddingEnd="@dimen/inc_text_view_padding"
-        android:singleLine="true" />
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/inc_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inc_button_text" />
+
+        <TextView
+            android:id="@+id/inc_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/inc_text_view_padding"
+            android:paddingEnd="@dimen/inc_text_view_padding"
+            android:singleLine="true"
+            android:textSize="@dimen/inc_text_view_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/preamble_text_view"
+            android:text="@string/student_surname" />
+
+        <TextView
+            android:id="@+id/surname_text_view"
+            style="@style/value_text_view" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/preamble_text_view"
+            android:text="@string/student_discipline" />
+
+        <TextView
+            android:id="@+id/discipline_text_view"
+            style="@style/value_text_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/preamble_text_view"
+            android:text="@string/student_mark" />
+
+        <TextView
+            android:id="@+id/mark_text_view"
+            style="@style/value_text_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/preamble_text_view"
+            android:text="@string/students_count" />
+
+        <TextView
+            android:id="@+id/students_count_text_view"
+            style="@style/value_text_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/preamble_text_view"
+            android:text="@string/disciplines_count" />
+
+        <TextView
+            android:id="@+id/discipline_count_text_view"
+            style="@style/value_text_view" />
+    </LinearLayout>
 
 </LinearLayout>
