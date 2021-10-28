@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FirstKotlinApp</string>
+    <string name="inc_button_text">Increment!</string>
+    <string name="student_surname">Student surname:</string>
+    <string name="student_discipline">Discipline:</string>
+    <string name="student_mark">Mark:</string>
+    <string name="students_count">Students count:</string>
+    <string name="disciplines_count">Disciplines count:</string>
 </resources>

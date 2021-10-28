@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inc_text_view_text_size">26sp</dimen>
+    <dimen name="inc_text_view_padding">10dp</dimen>
+    <dimen name="student_preamble_text_size">20sp</dimen>
+    <dimen name="student_text_size">16sp</dimen>
+</resources>
